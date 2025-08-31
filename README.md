@@ -43,7 +43,7 @@ See all extracted features in a structured table.
 ├── malicious_domain_detection.ipynb  # Model training
 ├── DomainDetection.ipynb             # GUI application
 ├── model.pkl                         # Trained model (generated)
-├── domain_classification_dataset.csv # Dataset (not included)
+├── domain_classification_dataset.csv # Dataset (not included URL: https://www.kaggle.com/datasets/nizamuddinmaitlo/malicious-domain-detection-dataset)
 └── logo.png                          # Optional logo for GUI
 👥 Developers
 
