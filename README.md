@@ -1,8 +1,8 @@
 # Malicious-Domain-Detection-Using-Selective-Ensemble-based-Deep-Forest-SE-DF-
 A machine learning-based system for detecting malicious domains using a novel Selective Ensemble-based Deep Forest (SE-DF) model. This project includes both a Jupyter Notebook for model training and a user-friendly GUI application for real-time domain classification.
 
-**📌 Overview
-****This repository contains:**
+**📌 Overview**
+**This repository contains:**
 Model Training Notebook (malicious_domain_detection.ipynb):
 Trains a SelectiveDeepForest model using handcrafted features extracted from domain names.
 Saves the trained model as model.pkl.
@@ -11,7 +11,7 @@ Saves the trained model as model.pkl.
 Provides an interactive interface to classify domains as Malicious or Benign.
 Displays feature values and supports both single and batch domain input.
 
-**🧠 ****Features**
+**🧠 Features**
 Feature Extraction: 23 handcrafted features including:
 Length, digit/letter counts, entropy, vowel ratio, positional stats, and more.
 
@@ -28,7 +28,7 @@ Support for multiple domain inputs.
 **1. Install Dependencies**
 bash
 pip install pandas numpy scikit-learn tkinter pillow
-2. Train the Model
+**2. Train the Model**
 Run the malicious_domain_detection.ipynb notebook to train and save the model.
 
 **3. Launch the GUI**
@@ -51,19 +51,19 @@ See all extracted features in a structured table.
 
 └── logo.png                          # Optional logo for GUI
 
-👥 Developers
+**👥 Developers**
 
 Developer: Nizamuddin & Samar Abbas Mangi
 
 **📜 License**
 This project is developed for academic purposes at Shah Abdul Latif University, Khairpur.
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 Real-time API integration for domain lookup
 
 Model explainability (SHAP/LIME)
 
-Cloud deployment
+**Cloud deployment**
 
 🚀 Try it now!
 Clone the repo, train the model, and run the GUI to detect malicious domains with state-of-the-art ensemble learning.
